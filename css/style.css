@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100%;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(224, 238, 250);
+}
+
+.quiz-container {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(233, 55, 90);
+    border-radius: 10px;
+}
+
+.answer-input {
+    display: flex;
+}
+
+.input {
+    background-color: rgb(255, 174, 145);
+}
